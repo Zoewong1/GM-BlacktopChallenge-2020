@@ -22,6 +22,6 @@ with open('../chicagocrashes.csv', mode='r') as csv_file:
 sorted_data = sorted(data.items(), key= lambda x:x[1],reverse = True)
 first_10 = sorted_data[:10]
 for i in first_10:
-    print('location ', i[0])
+    print('location: ', i[0])
     print('crashes: ', i[1])
-    # print('location: ', locations[i[0]])
+    
